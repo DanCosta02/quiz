@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Inteligente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz Inteligente</h1>
+    <div>
+      <span class="level">Nível: <span id="level">0</span></span>
+      <div class="progress-bar-container">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+    </div>
+  </header>
+  
+  <div class="container">
+    <p>Escolha uma categoria:</p>
+    <button onclick="startQuiz('História')">História</button>
+    <button onclick="startQuiz('Ciência')">Ciência</button>
+    <button onclick="startQuiz('Tecnologia')">Tecnologia</button>
+    <div id="quiz"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
